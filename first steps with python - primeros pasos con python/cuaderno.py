@@ -2,7 +2,8 @@
 #mi primer programa.
 
 print("hola mundo.")
-a = 5
-b = 9
-suma = a + b
-print(suma)
+
+#Variables, expresiones y sentencias
+#Valores y tipos
+
+
