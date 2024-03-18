@@ -34,7 +34,16 @@ class       elif           finally     if          lambda          print       w
 """Las operaciones tiene un orden de ejecucion. Primero son las operaciones que estan estre parentesis, despues la exponenciacion,
 #multiplicacion y division. Los operadores se evaluan de izquierda a derecha."""
 
+#functions
+""" a function is like the one used (type(msg)). There are built-in functions but there are also special functions which are
+calls from their libraries. Below is an example, pay close attention to the syntax """
 
+import math
+
+b = math.cos(math.pi)
+
+msg2 = "the cosine of pi is = "
+print(msg2, b)
 
 
 
