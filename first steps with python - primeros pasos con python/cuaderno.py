@@ -1,9 +1,11 @@
-#Aprenda a Pensar Como un Programador con Python
-#mi primer programa.
+#Learn to Think Like a Programmer with Python.
+#My first program.
 
-print("hola mundo.")
+print("hello world.")
 
-#Variables, expresiones y sentencias
-#Valores y tipos
+#Variables, expressions and statements.
+#Values and types.
+
+#We can know what type of variable it is with the following function.
 
 
