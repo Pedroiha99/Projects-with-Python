@@ -248,6 +248,16 @@ def countdown(n):
 print ("Taking off!")
 
 
+#Boards 
+"""The tab character causes the cursor to move to the right until
+reach one of the tab stop markers. remember to import the math library in this example"""
+
+x = 1.0
+
+while x < 10.0:
+    print (x, "\t", math.log(x))
+    x = x + 1.0
+
 
 
 
