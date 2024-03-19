@@ -215,6 +215,39 @@ def absolutevalue(x):
     
 print("the absolute value of ", x, " is ", absolutevalue(x))   
 
+#More recursion factorial
+
+n = int(input("Enter a number to know its factorial: ")) 
+
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        recursive = factorial (n-1)
+        result = n * recursive
+        return result
+    
+#One more example fibonacci
+
+n = int(input("Enter a number and know its Fibonacci series: "))
+
+def fibonacci (n):
+    if n == 0 or n == 1:
+        return 1
+    else:
+        return fibonacci(n-1) + fibonacci(n-2)   
+    
+#Iteration
+#The while statement
+
+def countdown(n):
+    while n > 0:
+        print (n)
+        n = n-1
+        
+print ("Taking off!")
+
+
 
 
 
