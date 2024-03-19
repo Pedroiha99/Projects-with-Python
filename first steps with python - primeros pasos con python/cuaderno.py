@@ -199,6 +199,24 @@ print("hello", name)
 num = int(input("enter your favorite number: "))
 print("your favorite number is: ", num)
 
+#Return values
+"""In a productive function it is a good idea to make sure that any possible
+program path reaches a return statement. For example:"""
+
+x = int(input("enter a number: "))
+
+def absolutevalue(x):
+    if x < 0:
+        return -x
+    elif x > 0:
+        return x
+    else:
+        return -1 
+    
+print("the absolute value of ", x, " is ", absolutevalue(x))   
+
+
+
 
 
 
